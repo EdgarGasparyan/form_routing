@@ -1,0 +1,57 @@
+.answerCart {
+  width: 70%;
+  height: 30px;
+  padding: 4px;
+  border: 1px solid black;
+  margin-top: 3px;
+  box-shadow: -10px -13px 9px -3px rgba(0, 0, 0, 0.51) inset;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.answerCart button {
+  background: red;
+  border: none;
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.answer_containner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer_title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer_title h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.answer_textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.answer_textbox button {
+  margin-top: 10px;
+  width: 230px;
+  background: red;
+  border: 1px solid black;
+  border-radius: 2px;
+  color: #fff;
+}
